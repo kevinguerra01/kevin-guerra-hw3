@@ -1,0 +1,5 @@
+fv = float(input("what is your target goal "))
+num_years = float(input("how many years will you invest? "))
+interest_rate = float(input("what will the interest rate be? "))
+present_value = fv/(1+interest_rate)**num_years
+print("your prsent value is" , present_value)
